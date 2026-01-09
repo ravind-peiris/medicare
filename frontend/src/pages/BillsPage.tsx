@@ -219,7 +219,7 @@ const BillsPage = () => {
             <CardDescription>Invoice #{billData.billNumber}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
-            {/* Patient Information */}
+            {/* No No Patient Information */}
             <div>
               <h3 className="font-semibold mb-3 text-gray-900">Patient Information</h3>
               <div className="space-y-2">
@@ -318,5 +318,6 @@ const BillsPage = () => {
     </div>
   );
 };
+
 
 export default BillsPage;
