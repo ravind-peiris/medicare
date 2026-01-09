@@ -209,7 +209,7 @@ const BillsPage = () => {
       </header>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Bill Information */}
+        {/* Bill Information for users 456  */}
         <Card className="mb-6">
           <CardHeader>
             <CardTitle className="flex items-center">
