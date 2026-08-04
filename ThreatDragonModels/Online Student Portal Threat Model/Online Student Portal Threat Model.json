@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-08-04",
+  "summary": {
+    "title": "Online Student Portal Threat Model",
+    "owner": "ravindu peiris",
+    "description": "This threat model describes a Medicare application that allows patients to register, log in, and manage their health information and appointments. Doctors can access patient records, manage appointments, and update medical information. Administrators can manage user accounts, doctors, patients, and overall system settings. The application is accessible through the Internet and stores patient records, appointment details, and user account information in a centralized database.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagramMedicare Application Data Flow Diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "This STRIDE diagram models the data flow of the Medicare application. It identifies interactions between Patients, Doctors, and Administrators with the Web Application, Authentication Service, and Database. The model is used to identify potential security threats such as Spoofing, Tampering, and Information Disclosure, and to recommend appropriate security controls."
+      }
+    ],
+    "diagramTop": 3,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
